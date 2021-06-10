@@ -14,7 +14,7 @@ class Term
  end
 
  def show_term_result
-   puts "#{self.name} の2020年の成績は #{self.win}勝 #{self.lose}敗 #{self.draw}分、勝率は #{calc_win_rate
+   puts "#{self.name} の2020年の成績は #{self.win}勝 #{self.lose}敗 #{self.draw}分、勝率は#{calc_win_rate
    }です。"
  end
 end
